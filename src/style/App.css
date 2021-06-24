@@ -1,0 +1,63 @@
+.App {
+  position: relative;
+}
+
+.App .form-box h1 {
+  text-align: center;
+  font-weight: 600;
+  padding-top: 15px;
+  color: #1d3557;
+  margin-bottom: 3rem;
+}
+
+.App .form-box form {
+  width: 300px;
+}
+
+.App .form-box form .input-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.App .form-box form .input-box input {
+  margin-top: 5px;
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid #1d3557;
+  outline: #1d3557;
+}
+
+.App .form-box form .btn {
+  margin-bottom: 3rem;
+}
+
+.App .form-box form .btn button {
+  background-color: #1d3557;
+  color: white;
+  width: 57px;
+  padding: 7px;
+  border-radius: 4px;
+  border: 1px solid #1d3557;
+}
+
+.App .form-box form .btn button:hover {
+  background-color: #265d7d;
+  border: 1px solid #265d7d;
+}
+
+.App .blog-box button {
+  background: transparent;
+  background-color: #265d7d;
+  border: 1px solid #265d7d;
+  border-radius: 1px;
+  color: white;
+}
+/*# sourceMappingURL=App.css.map */

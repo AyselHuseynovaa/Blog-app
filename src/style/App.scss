@@ -1,0 +1,54 @@
+.App {
+  position: relative;
+
+  .form-box {
+    h1{
+      text-align: center;
+      font-weight: 600;
+      padding-top: 15px;
+      color: #1d3557;
+      margin-bottom: 3rem;
+    }
+    form {
+      width: 300px;
+      .input-box {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        input {
+          margin-top: 5px;
+          padding: 7px;
+          border-radius: 5px;
+          border: 1px solid #1d3557;
+          outline: #1d3557;
+        }
+      }
+      .btn {
+        margin-bottom:3rem;
+        button {
+          background-color: #1d3557;
+          color: white;
+          width: 57px;
+          padding: 7px;
+          border-radius: 4px;
+          border: 1px solid #1d3557;
+        }
+        button:hover {
+          background-color: #265d7d;
+          border: 1px solid #265d7d;
+        }
+      }
+    }
+  }
+  .blog-box {
+    button {
+      background: transparent;
+      background-color: #265d7d;
+      border: 1px solid #265d7d;
+      border-radius: 1px;
+      color: white;
+    }
+  }
+}
